@@ -1,3 +1,10 @@
+# Repository Purpose: Build a Simple Jenkins Pipeline 
+
+This repository is linked to a Jenkins Pipline deployed on a Google Cloud Compute instance. The Jenkins pipeline automatically runs with any new commit to this repository. The application is a simply Hapi.js app forked from hapijs/lab (Details on the application can be found below).
+
+The goal of this repository was to get a simple Jenkins Pipeline up and running. 
+
+
 # Hello
 
 An example [Hapi.js](https://hapijs.com/) app with https://github.com/hapijs/lab tests. Solution to Exercise 1 from [Exercises for Programmers](http://pragprog.com/titles/bhwb), copyright 2015 The Pragmatic Programmers.

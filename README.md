@@ -2,6 +2,10 @@
 
 This repository is linked to a Jenkins Pipline deployed on a Google Cloud Compute instance. The Jenkins pipeline automatically runs with any new commit to this repository. The application is a simply Hapi.js app forked from hapijs/lab (Details on the application can be found below).
 
+# What does this pipeline do?
+
+This simple Jenkins pipeline deployes the app via Docker and runs some simple tests on the functionality of the app, namely checking that URLs produce proper responses and the parameterization of the URLs produce the proper output in the html.
+
 # Hello
 
 An example [Hapi.js](https://hapijs.com/) app with https://github.com/hapijs/lab tests. Solution to Exercise 1 from [Exercises for Programmers](http://pragprog.com/titles/bhwb), copyright 2015 The Pragmatic Programmers.
